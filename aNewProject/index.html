@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">!
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEMO Store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header__menu">
+            <a class="header__item header__button header__logo" href="#newsSection">Cлайдер</a>
+            <a class="header__item header__button header__logo" href="#actionSection">Таблица</a>
+            <a class="header__item header__button header__logo" href="#productSection">Сравнение</a>
+            <a class="header__item header__button header__logo" href="#comparisonSection">Галерея</a>
+        </div>
+        <div class="header__menu">
+            <form>
+                <input type="text" name="search" placeholder="Поиск">
+                <button>
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+        </div>
+    </header>
+<!--Слайдер-->
+    <div id="newsSection" class="slider news__section">
+        <div id="img-container" class="images-container">
+        <img class="slider-item fade" src="img/Akita Inu.jpg" alt="">
+        <img class="slider-item fade" src="img/Alaskan Malamute.jpg" alt="">
+        <img class="slider-item fade" src="img/Bull terrier.jpg" alt="">
+        <img class="slider-item fade" src="img/Chow Chow.jpg" alt="">
+        <img class="slider-item fade" src="img/Poodle.jpg" alt="">
+        <img class="slider-item fade" src="img/Rottweiler.jpg" alt="">
+    </div>
+    <div class="buttons-block">
+        <div id="prev-btn">&lt;</div>
+        <div id="next-btn">&gt;</div>
+    </div>
+    <div id="dots-block">
+        <button class="dot dot-active"></button>
+        <button class="dot"></button>
+        <button class="dot"></button>
+        <button class="dot"></button>
+        <button class="dot"></button>
+        <button class="dot"></button>
+    </div>
+    </div>
+<!--Див с текстом-->
+    <div class="text__area">
+        <p class="justppp">
+            Данный слайд не имеет никакого смысла, а просто показывает вам очень красивых собачек!
+            Ах, да, и это див, отдельный див.
+        </p>
+    </div>
+<!--Таблица-->
+    <div class="action__section" id="actionSection">
+        <p class="text__area">
+            Жмякни на собачку :)
+        </p>
+        <table class="tablenew">
+            <tr>
+                <th>Бойцовские</th>
+                <th>Охотничьи</th>
+                <th>Декоративные</th>
+            </tr>
+            <tr>
+                <th><button class="btn" data-path="one-one">Ротвейлер</button></th>
+                <th><button class="btn" data-path="two-one">Аляскинский маламут</button></th>
+                <th><button class="btn" data-path="three-one">Пудель</button></th>
+            </tr>
+            <tr>
+                <th><button class="btn" data-path="one-two">Мастиф</button></th>
+                <th><button class="btn" data-path="two-two">Акита ину</button></th>
+                <th><button class="btn" data-path="three-two">Чау Чау</button></th>
+            </tr>
+            <tr>
+                <th><button class="btn" data-path="one-three">Шарпей</button></th>
+                <th><button class="btn" data-path="two-three">Шарпей</button></th>
+                <th><button class="btn" data-path="three-three">Йоркширский терьер</button></th>
+            </tr>
+            <tr>
+                <th>---</th>
+                <th>---</th>
+                <th>---</th>
+            </tr>
+        </table>
+    </div>
+<!--сравнение-->
+    <div class="product__section" id="productSection">
+        Здесь у нас находиться product__section productSection
+    </div>
+<!--Слайдер-->
+    <div class="comparison__section" id="comparisonSection">
+        Здесь у нас находиться comparison__section comparisonSection
+    </div>
+<!--Футер не теряйся-->
+    <footer>
+    <div class="footertwo">
+        <div class="footerleft">
+            <p>ссылка1:<a class="afp" href="#">сама ссылка</a></p>
+            <p>ссылка2:<a class="afp" href="#">сама ссылка</a></p>
+            <p>ссылка3:<a class="afp" href="#">сама ссылка</a></p>
+            <p>ссылка4:<a class="afp" href="#">сама ссылка</a></p>
+            <p>ссылка5:<a class="afp" href="#">сама ссылка</a></p>
+        </div>
+        <div class="footerright">
+            <p>
+                просто море информации
+                которая не имеет смысла
+                ибо эта страничка пока что даже не готова
+                а её ещё дополняй полезной информацией
+                <p class="footerp">собаки произошли от волков</p>
+            </p>
+        </div>
+    </div>
+        <div class="footerdown">
+            <p class="footerp">При разработке сайта, ни одно животное не пострадало!</p>
+        </div>
+    </footer>
+<!-- окна -->
+    <div class="modals">
+		<div class="modal-overlay">
+			<div class="modal modal-1" data-target="one-one">
+                Окно 1
+			</div>
+			<div class="modal modal-2" data-target="two-one">
+				Окно 2
+            </div>
+            <div class="modal modal-3" data-target="three-one">
+				Окно 3
+            </div>
+            <div class="modal modal-4" data-target="one-two">
+                Окно 4
+			</div>
+			<div class="modal modal-5" data-target="two-two">
+				Окно 5
+            </div>
+            <div class="modal modal-6" data-target="three-two">
+				Окно 6
+            </div>
+            <div class="modal modal-7" data-target="one-three">
+                Окно 7
+			</div>
+			<div class="modal modal-8" data-target="two-three">
+				Окно 8
+            </div>
+            <div class="modal modal-9" data-target="three-three">
+				Окно 9
+			</div>
+		</div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
